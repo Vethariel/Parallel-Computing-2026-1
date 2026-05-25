@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: co.edu.unal.paralela.ReciprocalArraySumTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.616 sec <<< FAILURE! - in co.edu.unal.paralela.ReciprocalArraySumTest
-testParManyTaskTwoHundredMillion(co.edu.unal.paralela.ReciprocalArraySumTest)  Time elapsed: 14.874 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  9.600000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 2.013699x veces
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.858 sec <<< FAILURE! - in co.edu.unal.paralela.ReciprocalArraySumTest
+testParManyTaskTwoHundredMillion(co.edu.unal.paralela.ReciprocalArraySumTest)  Time elapsed: 17.494 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  6.400000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 2.189873x veces
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
 	at co.edu.unal.paralela.ReciprocalArraySumTest.testParManyTaskTwoHundredMillion(ReciprocalArraySumTest.java:149)
